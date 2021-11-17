@@ -1,0 +1,148 @@
+body {
+	background-color: #3d6d79;
+	color: #d87c25;
+	font-family: 'Roboto Condensed';
+}
+
+/* Company Name and Purpose */
+
+.company {
+	display: block;
+	padding-left: 260px;
+	font-size: 75pt;
+	font-weight: bold;
+	width: 100%;
+	height: 250px;
+}
+
+.purpose {
+	display: flex;
+	align-content: start;
+	justify-content: center;
+}
+
+/* moving van img */
+
+.handiwork {
+	display: flex;
+	width: 1000px;
+	height: 300px;
+	padding-left: 360px;
+	padding-top: 75px;
+}
+
+/* Nav Bar */
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* mission */
+
+.mission {
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+	color: #e0e2ee;
+	padding-bottom: 50px;
+}
+
+.boxshelf {
+	display: flex;
+	height: 600px;
+	width: 1200px;
+	padding-left: 200px;
+}
+
+/* resources */
+
+.resources {
+	display: flex;
+	justify-content: space-evenly;
+    align-content: center;
+    color: #ffffff;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* team */
+
+.team{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.planner h4, .dayof h4, .contact h4{
+    text-align: center;
+    font-size: 30px;
+	color: #d87c25;
+    
+}
+
+.planner p, .dayof p, .contact p{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    font-size: 22px;
+	color: #ffffff;
+    
+}
+
+/* pet images */
+
+.imgs{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    gap: 100px;
+}
+
+.dach{
+    display: flex;
+    padding-left: 70px;
+    
+}
+
+.kitten{
+    padding-left: 250px;
+}
+
+.puppy{
+    padding-left: 300px;
+}
+
+/*contact*/
+
+.contact{
+   display: flex;
+   flex-direction: column;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 150px;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
